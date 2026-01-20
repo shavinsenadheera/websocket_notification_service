@@ -1,0 +1,33 @@
+# Ballerina build artifacts
+target/
+*.jar
+*.balx
+
+# Ballerina cache and dependencies
+.ballerina/
+
+# Ballerina internal cache
+**/target/
+**/Dependencies.toml
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment and config files (if containing sensitive data)
+# Config.toml  # Uncomment if Config.toml contains secrets
+
+# Temporary files
+*.tmp
+*.bak

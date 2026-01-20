@@ -1,0 +1,8 @@
+[package]
+org = "shavindusenadheera"
+name = "websocket_notification_service"
+version = "0.1.0"
+title = "websocket_notification_service"
+
+[build-options]
+sticky = true
